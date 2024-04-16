@@ -1,0 +1,85 @@
+body
+{
+    background-color: darkgray;
+}
+
+.caixa
+{
+  width: 400px;  
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.caixaComflex
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.item
+{
+    background-color: beige;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.caixaComflexewrap
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap:wrap;
+}
+.caixaFlexStart
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.caixaFlexEnd
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixaSpaceBetween
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixaSpaceAround
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixaSpaceCenter
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-evenly;
+}
